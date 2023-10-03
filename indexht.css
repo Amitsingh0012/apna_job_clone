@@ -1,0 +1,506 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    font-family: Arial, sans-serif;
+}
+
+header {
+
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    z-index: 160;
+    font-size: 20px;
+    background-color: rgb(34, 32, 32);
+}
+
+header li {
+    margin-top: 25px;
+    float: left;
+    list-style-type: none;
+}
+
+header a:hover {
+    background-color: rgb(19, 14, 14);
+    border-radius: 10px;
+
+}
+
+nav {
+    height: 150px;
+}
+
+header li a {
+    float: left;
+    width: 100%;
+    height: 12px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 14px 7px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font: normal 80.5% "proxima-nova-alt", Helvetica, Arial, sans-serif;
+}
+
+header .logo {
+    margin-top: 25px;
+    margin-left: 5%;
+    float: left;
+    width: 40px;
+    height: 40px;
+    background: url(apna-time-icon.png) no-repeat;
+    background-size: 40px 40px;
+}
+
+header .lookforjob {
+    text-align: right;
+}
+
+#lookforjobs {
+    float: right;
+    margin-right: 10%;
+}
+
+#cyanclr {
+    margin-top: 20px;
+    margin-left: 50px;
+    color: aqua;
+    font-weight: bold;
+
+}
+
+#cyanclr2 {
+    margin-top: 20px;
+    margin-left: 50px;
+    color: aqua;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+#cyanclr1 {
+    margin-left: 50px;
+    color: aqua;
+    font-weight: bold;
+
+}
+
+#cyanclr4 {
+    margin: 20px;
+    color: aqua;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.main0 {
+    height: 100%;
+    width: 100%;
+}
+
+#candidate {
+    margin-top: 40px;
+    margin-left: 50px;
+    font-size: 72px;
+    font-weight: bolder;
+
+}
+
+#cand1 {
+    margin-top: 20px;
+    font-size: 20px;
+    color: rgba(43, 40, 40, 0.92);
+    margin-left: 50px;
+
+}
+
+.fisbody {
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.left {
+    left: 0;
+
+}
+
+.right {
+    right: 0;
+
+}
+
+.centered {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+form {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    background-color: #f9f9f9;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    width: 75%;
+    padding: 10px;
+    margin-top: 20Px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    border: 1px solid #ccc;
+    border: none;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    font-size: 20px;
+    background-color: aquamarine;
+    color: #fff;
+    width: 92%;
+    padding: 20px 15px;
+    border: none;
+    border-radius: 10 px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: aqua;
+
+}
+
+#fixedInput {
+    width: 15%;
+    padding: 10px;
+    margin-top: 20Px;
+    margin-bottom: 20px;
+    align-content: center;
+    border-radius: 10px;
+}
+
+#lessbright {
+    margin: 20px;
+    color: #73c3c9;
+}
+
+.body3 {
+    margin-top: 40%;
+}
+.body3 .image-container img{
+    height: 60px;
+    width: 10%;
+    margin: 20px;
+}
+#margin20 {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+#largepix {
+    text-align: center;
+    font-size: 56px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-weight: bolder;
+}
+
+.column {
+    float: left;
+    width: 31.7%;
+    padding: 10px;
+    height: 300px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+#marginleft20 {
+    margin-left: 100px;
+    margin-top: 30px;
+    font-size: 24px;
+}
+
+footer .logo {
+    margin-top: 33.3px;
+    margin-left: 5%;
+    float: left;
+    width: 40px;
+    height: 40px;
+    background: url(apna-time-icon.png) no-repeat;
+    background-size: 40px 40px;
+}
+.column {
+    float: left;
+    width: 28%;
+    
+  }
+
+  .row {
+   margin-left: 7%;
+    width: 100%;
+    height: auto;
+}
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+ 
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: left;
+    border-radius: 5px;
+    height: 450px;
+    overflow: hidden;
+    justify-self: center;
+  }
+  #buttonreadmore{
+    background-color: rgb(18, 188, 131);
+    font-weight: bold;
+    border: none;
+    font-size: 20px;
+    border-radius: 5px;
+    margin: 10px;
+    margin-bottom: 30px;
+    padding: 10px;
+    align-items: last baseline;
+  }
+  #paral1{
+    font-size: x-large;
+    font-weight: bolder ;
+  }
+  .card img {
+    max-width: 100%;
+    height: auto;
+    margin: 0%;
+    padding: 0%;
+    
+  }
+  .row1 {
+    margin-top: 200px;
+    display: flex;
+  }
+ 
+  .test{
+    margin-top: 200px;
+  }
+  
+  .column1 {
+    flex: 50%;
+    padding: 10px;
+    margin: 30px;
+    height: 500px;
+  }
+  .column1 img {
+    max-width: 100%;
+    height: 450px;
+    
+  }
+  #jobpost{
+    font-size: 50px;
+    margin-left: 50px;
+    font-weight: bolder;
+  }
+ #contpostjob{
+    margin: 25px;
+    margin-left: 60px;
+    font-size: 20px;
+    color: #ccc;
+    font-weight: bolder;
+ }
+ .cyan-icon {
+    color: cyan; 
+}
+.testemonial{
+    margin: 50px;
+}
+#image-container-testemonial{
+    margin-left: 20%;
+    
+}
+#image-container-testemonial img{
+    height: 60px;
+    image-resolution: 60px 200px;
+}
+  #changeletter{
+    padding: 50px;
+    width: 100%;
+  }
+  
+.content{
+    text-align: center;
+    padding-bottom: 15px;
+}
+.main{
+    width: 100%;
+    background-color: #2a2a2a;
+    padding: 50px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+input {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.place{
+    display: flex;
+}
+#name{
+    height: auto;
+    width: 80%;
+    margin: 2%;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    margin: 10px;
+    padding: 15px 20px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-weight: bold;
+}
+.main h5{
+    padding: 60px;
+    text-align: center;
+   
+}
+.main h1{
+    margin-bottom: 30px;
+    text-align: center;
+}
+.hire{
+    margin-top: 200px;
+    padding: 20px;
+    margin-bottom: 200px;
+}
+form{
+    border: none;
+}
+.lastval ul li{
+    display: inline;
+    margin: 5%;
+    padding: 30px;
+    
+}
+button[type="submit"] {
+    font-size: 20px;
+    background-color: black;
+    color: #fff;
+    width: 92%;
+    padding: 20px 15px;
+    border: none;
+    border-radius: 10 px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+button[type="submit"]:hover {
+    background-color: rgb(4, 67, 67);
+
+}
+.acord{
+    width: 100%;
+    font-weight: bolder;
+    margin: 30px;
+    padding: 30px;
+    background-color: black;
+}
+.acord h5{
+    padding: 30px;
+}
+.acord h1{
+    font-size: 44px;
+    margin-bottom: 30px;
+}
+.w3-container button{
+    width: 50%;
+    padding: 30px;
+    margin-left: 20%;
+    background-color: #333;
+}
+.w3-container .w3-hide{
+    width: 100%;
+    padding: 30px;
+    margin-left: 20%;
+    background-color: #333;
+}
+.BelowFooter{
+    width: 100%;
+    margin-bottom: 10%;
+}
+.BelowFooter .social{
+    margin-left: 30px;
+    width: 100%;
+    display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.BelowFooter .social .fab{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(5, 82, 82);
+    border-radius: 50%;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.BelowFooter .social  .fa-facebook-f{
+    align-self: center;
+}
+.facebook-icon {
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .facebook-icon i {
+    font-size: 30px;
+    color: #fff;
+  }
+  .blue-line {
+    width: 33%;
+    height: 1px;
+    margin-left: 30px;
+    background-color: blue;
+    margin-bottom: 10%;
+  }
+  .apnaimgend{
+    float: right;
+    height: 200px;
+  }

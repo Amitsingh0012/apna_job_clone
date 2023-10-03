@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Your other head content here -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    /* Your existing CSS here */
+    
+    .toggle-button {
+      width: 40px;
+      height: 40px;
+      background-color: #007bff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+    }
+
+    .icon {
+      font-size: 24px;
+      color: white;
+      transition: transform 0.3s;
+    }
+
+    .icon .fa-times {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <!-- Your existing HTML content here -->
+
+  <!-- Add this toggle button to your HTML structure -->
+  <div class="toggle-button" onclick="toggleElement('content')">
+    <div class="icon" id="icon">
+      <i class="fas fa-plus"></i> 
+      <i class="fas fa-times"></i> <!-- Font Awesome times icon -->
+    </div>
+  </div>
+
+  <div id="content" class="w3-hide">
+    <!-- Content to show/hide -->
+    <p>This is the content that can be toggled.</p>
+  </div>
+
+  <!-- Your existing JavaScript functions here -->
+
+  <script>
+    // JavaScript for toggling the content and icon
+    function toggleElement(id) {
+      var x = document.getElementById(id);
+      var icon = document.getElementById("icon");
+
+      if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+        icon.querySelector(".fa-plus").style.display = "none";
+        icon.querySelector(".fa-times").style.display = "inline";
+      } else {
+        x.className = x.className.replace(" w3-show", "");
+        icon.querySelector(".fa-plus").style.display = "inline";
+        icon.querySelector(".fa-times").style.display = "none";
+      }
+    }
+  </script>
+</body>
+</html>
